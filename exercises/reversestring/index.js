@@ -14,10 +14,16 @@
 //     return reversedStr
 //     }
 
-    function reverse(str) {
-        let reversed = str.split('')
-        reversed.reverse()
-        return reversed.join('')
-        }
+    // function reverse(str) {
+    //     let reversed = str.split('')
+    //     reversed = reversed.reverse('').join('')
+    //     return reversed
+    //     }
+
+        //cleanup
+
+        function reverse(str) {
+            return str.split('').reverse().join('');
+            }
 
 module.exports = reverse;
